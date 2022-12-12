@@ -1,6 +1,6 @@
 class ProductManager {
     constructor() {
-        this.products = []
+        this.products = [];
     }
 
     addProduct( title, description, price, thumbnail, code, stock ) {
@@ -16,20 +16,20 @@ class ProductManager {
             }
 
             if( this.products.length ) {
-                product.id = this.products[this.products.length -1].id + 1
+                product.id = this.products[this.products.length -1].id + 1;
             } else {
-                product.id = 1
+                product.id = 1;
             }
 
-            const isPresentCode = this.products.find( product => product.code === code )
+            const isPresentCode = this.products.find( product => product.code === code );
 
             if( !isPresentCode ) {
-                this.products.push( product )
-                return true
+                this.products.push( product );
+                return true;
             }
-            return console.log( `el code ${ code } ya esxiste` )
+            return console.log( `el code ${ code } ya esxiste` );
         }
-        throw new Error( 'Todos los campos son obligatorios!!' )
+        throw new Error( 'Todos los campos son obligatorios!!' );
     }
 
     getProducts() {
