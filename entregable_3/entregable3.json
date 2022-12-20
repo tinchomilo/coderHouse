@@ -1,0 +1,56 @@
+[
+  {
+    "title": "teclado",
+    "description": "teclado mecanico",
+    "price": 13000,
+    "thumbnail": "http://images.com/1",
+    "code": 123,
+    "stock": 5,
+    "id": 1
+  },
+  {
+    "title": "mouse",
+    "description": "mouse inalambrico",
+    "price": 8000,
+    "thumbnail": "http://images.com/2",
+    "code": 124,
+    "stock": 5,
+    "id": 2
+  },
+  {
+    "title": "mouse",
+    "description": "mouse",
+    "price": 6000,
+    "thumbnail": "http://images.com/3",
+    "code": 125,
+    "stock": 5,
+    "id": 3
+  },
+  {
+    "title": "monitor",
+    "description": "monitor hd",
+    "price": 18000,
+    "thumbnail": "http://images.com/4",
+    "code": 126,
+    "stock": 5,
+    "id": 4
+  },
+  {
+    "title": "parlantes",
+    "description": "parlantes bluetooth",
+    "price": 4500,
+    "thumbnail": "http://images.com/5",
+    "code": 127,
+    "stock": 5,
+    "id": 5
+  },
+  {
+    "title": "impresora",
+    "description": "impresora laser",
+    "price": 68000,
+    "thumbnail": "http://images.com/6",
+    "code": 128,
+    "stock": 5,
+    "id": 6
+  }
+]
