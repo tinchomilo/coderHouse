@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "clase_8",
+  "version": "1.0.0",
+  "main": "handsOnLabs.js",
+  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon handsOnLabs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
