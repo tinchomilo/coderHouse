@@ -1,0 +1,33 @@
+<div>
+    <form action="/realTimeProducts" method="post">
+        <label>Titulo:
+            <input type="text" id="title" placeholder="Escribe el titulo...">
+        </label>
+        <label>Descripcion:
+            <input type="text" id="description" placeholder="Ingrese descripción">
+        </label>
+        <label>Precio
+            <input type="text" id="price" placeholder="Ingrese precio">
+        </label>
+        <label>imagenes:
+            <input type="text" id="thumbnails" placeholder="Ingrese imagenes">
+        </label>
+        <label>Código:
+            <input type="text" id="code" placeholder="Ingrese codigo">
+        </label>
+        <label>Stock:
+            <input type="text" id="stock" placeholder="Ingrese el stock">
+        </label>
+        <label>Status:
+            <input type="text" id="status" placeholder="Ingrese status">
+        </label>
+        <label>Categoria:
+            <input type="text" id="category" placeholder="Ingrese categoria">
+        </label>
+        <input type="submit" id="send">
+    </form>
+    <p></p>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/main.js"></script>
