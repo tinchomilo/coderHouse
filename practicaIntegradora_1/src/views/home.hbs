@@ -1,0 +1,13 @@
+<div id="container">
+    <ul>
+        {{#each users}}
+        <div class="card">
+            <li>Id: {{ this.name }}</li>
+            <li>Titulo: {{ this.lastName }} </li>
+            <li>descripción: {{ this.age }} </li>
+            <li>Precio: {{ this.mail }} </li>
+        </div>
+        <br/>
+    {{/each}}
+    </ul>
+</div>
